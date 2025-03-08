@@ -6,7 +6,7 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 public class Main {
 
-    private static final String TOKEN = "7646011771:AAE6vgP__kY9NqspV_RappSiBSvu1tuWvdY";
+    private static final String TOKEN = "TOKEN";
 
     public static void main(String[] args) throws TelegramApiException {
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
